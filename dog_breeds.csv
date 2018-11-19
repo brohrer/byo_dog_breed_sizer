@@ -1,0 +1,148 @@
+Breed,height_cm,mass_kg
+Akita,68.58,45.45454545
+Anatolian Sheepdog,71.12,56.81818182
+Bernese Mountain Dog,63.5,44.31818182
+Bloodhound,63.5,45.45454545
+Borzoi,68.58,38.63636364
+Bullmastiff,66.04,52.27272727
+Great Dane,81.28,63.63636364
+Great Pyrenees,74.93,48.86363636
+Great Swiss Mountain Dog,64.77,63.63636364
+Irish Wolfhound,80.01,54.54545455
+Kuvasz,73.66,43.18181818
+Mastiff,72.39,82.95454545
+Neopolitan Mastiff,68.58,56.81818182
+Newfoundland,68.58,56.81818182
+Otter Hound,63.5,39.77272727
+Rottweiler,62.23,45.45454545
+Saint Bernard,67.31,68.18181818
+Afghan Hound,66.04,25
+American Foxhound,59.69,30.68181818
+Beauceron,64.77,50
+Belgian Malinois,60.96,28.40909091
+Belgian Sheepdog,60.96,30.68181818
+Belgian Tervuren,60.96,30.68181818
+Black And Tan Coonhound,63.5,28.40909091
+Black Russian Terrier,68.58,50
+Bouvier Des Flandres,63.5,38.63636364
+Boxer,58.42,30.68181818
+Briard,63.5,34.09090909
+Chesapeake Bay Retriever,59.69,29.54545455
+Clumber Spaniel,49.53,22.72727273
+Collie (Rough) & (Smooth),60.96,28.40909091
+Curly Coated Retriever,66.04,32.95454545
+Doberman Pinscher,68.58,36.36363636
+English Foxhound,59.69,30.68181818
+English Setter,63.5,28.40909091
+German Shepherd Dog,60.96,37.5
+German Shorthaired Pointer,59.69,29.54545455
+German Wirehaired Pointer,60.96,29.54545455
+Giant Schnauzer,67.31,32.95454545
+Golden Retriever,57.15,29.54545455
+Gordon Setter,63.5,28.40909091
+Greyhound,72.39,29.54545455
+Irish Setter,66.04,29.54545455
+Komondor,78.74,48.86363636
+Labrador Retriever,57.15,30.68181818
+Old English Sheepdog (Bobtail),55.88,28.40909091
+Poodle Standard,50.8,20.45454545
+Rhodesian Ridgeback,64.77,35.22727273
+Scottish Deerhound,76.2,42.04545455
+Spinone Italiano,64.77,32.95454545
+Tibetan Mastiff,63.5,70.45454545
+Weimaraner,66.04,35.22727273
+Airdale Terrier,58.42,20.45454545
+American Staffordshire Terrier,45.72,20.45454545
+American Water Spaniel,41.91,15.90909091
+Australian Cattle Dog,46.99,18.18181818
+Australian Shepherd,52.07,22.72727273
+Basset Hound,35.56,20.45454545
+Bearded Collie,53.34,22.72727273
+Border Collie,50.8,18.18181818
+Brittany,48.26,15.90909091
+Bull Dog,35.56,25
+Bull Terrier,54.61,27.27272727
+Canaan Dog,54.61,20.45454545
+Chinese Shar Pei,48.26,22.72727273
+Chow Chow,52.07,22.72727273
+Cocker Spaniel-American,39.37,11.36363636
+Cocker Spaniel-English,40.64,13.63636364
+Dalmatian,53.34,26.13636364
+English Springer Spaniel,50.8,22.72727273
+Field Spaniel,45.72,19.31818182
+Flat Coated Retriever,57.15,29.54545455
+Finnish Spitz,44.45,15
+Harrier,50.8,22.72727273
+Ibizan Hound,64.77,22.04545455
+Irish Terrier,46.99,11.81818182
+Irish Water Spaniel,41.91,25
+Keeshond,45.72,19.31818182
+Kerry Blue Terrier,48.26,17.04545455
+Norwegian Elkhound,49.53,22.72727273
+Nova Scotia Duck Tolling Retriever,48.26,19.31818182
+Petit Basset Griffon Vendeen,35.56,15.90909091
+Pharaoh Hound,58.42,22.72727273
+Plott Hound,55.88,22.72727273
+Pointer,57.15,25
+Polish Lowland Sheepdog,45.72,14.77272727
+Portuguese Water Dog,54.61,23.18181818
+Redbone Coonhound,60.96,27.27272727
+Saluki,64.77,23.86363636
+Samoyed,54.61,26.13636364
+Siberian Husky,54.61,22.72727273
+Soft-Coated Wheaten Terrier,48.26,18.18181818
+Staffordshire Bull Terrier,38.1,11.81818182
+Standard Schnauzer,45.72,15
+Sussex Spaniel,39.37,19.31818182
+Vizsla,59.69,25.90909091
+Welsh Springer Spaniel,44.45,18.18181818
+Wirehaired Pointing Griffon,55.88,23.86363636
+American Eskimo,35.56,12.5
+Australian Terrier,25.4,5.454545455
+Basenji,43.18,9.545454545
+Beagle,36.83,10.90909091
+Bedlington Terrier,39.37,9.318181818
+Bichon Frise,26.67,6.363636364
+Border Terrier,34.29,6.136363636
+Boston Terrier,36.83,9.090909091
+Brussels Griffon,19.05,4.090909091
+Cairn Terrier,24.13,6.363636364
+Cardigan Welsh Corgi,27.94,13.63636364
+Cavalier King Charles Spaniel,31.75,7.954545455
+Dachshund,21.59,10.90909091
+Dandie Dinmont Terrier,24.13,9.545454545
+English Toy Spaniel,25.4,5.454545455
+Fox Terrier,36.83,7.954545455
+French Bulldog,29.21,10.22727273
+German Pinscher,44.45,13.63636364
+Glen Imaal Terrier,35.56,15.90909091
+Lakeland Terrier,34.29,7.272727273
+Manchester Terrier (Standard),39.37,7.954545455
+Poodle Miniature,31.75,9.090909091
+Pug,26.67,8.181818182
+Puli,41.91,14.09090909
+Schipperke,29.21,6.818181818
+Scottish Terrier,27.94,9.090909091
+Sealyham Terrier,30.48,8.636363636
+Shetland Sheepdog (Sheltie),36.83,7.727272727
+Shiba Inu,36.83,10.22727273
+Shih Tzu,24.13,5.681818182
+Silky Terrier,24.13,4.318181818
+Skye Terrier,25.4,11.36363636
+Tibetan Spaniel,25.4,5.454545455
+Tibetan Terrier,39.37,11.36363636
+Welsh Terrier,38.1,9.318181818
+West Highland White Terrier,27.94,6.363636364
+Whippet,50.8,12.95454545
+Affenpinscher,26.67,4.545454545
+Chihuahua,19.05,1.590909091
+Chinese Crested,30.48,3.863636364
+Italian Greyhound,34.29,3.636363636
+Japanese Chin,24.13,3.409090909
+Maltese,22.86,2.272727273
+Manchester Terrier (Toy),27.94,3.181818182
+Papillon,24.13,3.409090909
+Pomeranian,30.48,2.272727273
+Poodle Toy,25.4,4.545454545
+Toy Fox Terrier,25.4,2.5
+Yorkshire Terrier,20.32,2.272727273
