@@ -26,13 +26,10 @@ class PolynomialModel(object):
         self.n_iter_default = self.order * 10
 
     def initial_guess(self, x, y):
-        params = [np.random.normal(
-            loc=np.mean(y),
-            scale=np.std(y))]
+        params = [np.random.normal(loc=np.mean(y), scale=np.std(y))]
         for i_term in range(self.order):
             params.append(np.random.normal(
-                loc=0,
-                scale=np.std(y) / np.std(x)**(i_term + 1)))
+                loc=0, scale=np.std(y) / np.std(x)**(i_term + 1)))
         return np.array(params)
 
     def evaluate(self, p, x):
@@ -56,6 +53,6 @@ all_models = [
     PolynomialModel(order=2),
     PolynomialModel(order=3),
     PolynomialModel(order=4),
-    # PolynomialModel(order=5),
-    # PolynomialModel(order=6),
+    PolynomialModel(order=5),
+    PolynomialModel(order=6),
 ]

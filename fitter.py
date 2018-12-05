@@ -11,20 +11,20 @@ def fit_curve(x, y):
 
     models, training_errors, testing_errors = compare_models(x, y)
     best_model = models[np.argmin(testing_errors)]
-    res = train(best_model, x, y, n_iter=best_model.n_iter_default)
-    p_final = res.x
+    p_final = train(best_model, x, y, n_iter=best_model.n_iter_default)
     dta.save_model((best_model, p_final))
 
     return best_model, p_final
 
 
-def compare_models(x, y, n_folds=50):
+def compare_models(x, y):
+    models = mod.all_models
     training_errors = []
     testing_errors = []
-    data_sets = []
 
+    n_folds = 50
+    data_sets = []
     for i_fold in range(n_folds):
-        models = mod.all_models
         data_sets.append(split_data(x, y))
 
     for model in models:
@@ -33,8 +33,7 @@ def compare_models(x, y, n_folds=50):
         for i_fold in range(n_folds):
             x_train, y_train, x_test, y_test = data_sets[i_fold]
 
-            res = train(model, x_train, y_train, n_iter=model.n_iter_default)
-            p_final = res.x
+            p_final = train(model, x_train, y_train, n_iter=model.n_iter_default)
 
             all_training_errors.append(loss_function(
                 p_final, x_train, y_train, model))
@@ -66,14 +65,14 @@ def split_data(x, y):
 
 
 def train(model, x_train, y_train, n_iter=3):
-    best_res = None
+    p_best = None
     best_loss = 1e100
     for _ in range(n_iter):
         # The arguments that will get passed to the error function,
         # in addition to the model parameters of the current iteration.
         loss_fun_args = (x_train, y_train, model)
         p_initial = model.initial_guess(x=x_train, y=y_train)
-        # Confusingly the `x0` argument is not a request for the x values of
+        # Confusingly the `x0` argument is not expecting the x value of
         # the data points or for the 0th element of a list. It is for the
         # initial guess for the parameter values.
         res = opt.minimize(
@@ -83,16 +82,16 @@ def train(model, x_train, y_train, n_iter=3):
             args=loss_fun_args,
         )
         loss = loss_function(
-            res.x,
+	    res.x,
             x_train,
             y_train,
             model,
         )
         if loss < best_loss:
             best_loss = loss
-            best_res = res
+            p_best = res.x
 
-    return best_res
+    return p_best
 
 
 def loss_function(p, xs, ys, model):

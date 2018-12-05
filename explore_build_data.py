@@ -1,15 +1,15 @@
 import os
 import matplotlib
 matplotlib.use("agg")
-import matplotlib.pyplot as plt  # noqa:E402
-import preprocessor as pre
+import matplotlib.pyplot as plt
+import dog_sizer as siz
 
 
 plt.figure(9870)
 plt.clf()
 ax = plt.gca()
 
-body_size, build, breed = pre.calculate_build_data()
+body_size, build, breed = siz.calculate_build_data()
 ax.plot(body_size, build, '.')
 ax.set_xlabel("Body size")
 ax.set_ylabel("Build (positive=stocky, negative=lanky)")
